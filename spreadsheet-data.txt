@@ -1,0 +1,48 @@
+'section_z_01	0	'inlet start
+'section_z_02	=section_z_01 + 10	'inlet end,airway start
+'section_z_03	=section_z_02 + 30	'airway rect
+'section_z_04	=section_z_03 + 10	'airway opening, window start
+'section_z_05	=section_z_04 + 17	'window end, under cut start, over cut start
+'section_z_06	=section_z_05 + 8	'under cut end
+'section_z_07	=section_z_06 + 42	'end overcut
+'section_z_08	=section_z_07 + 10	'internal slope end, inlet stop
+'section_z_09	=section_z_08 + 20	'pvc junction section
+'labium_width_start	30	
+'labium_width_end	38	
+'labium_slope	=(labium_width_end - labium_width_start) / (section_z_07 - section_z_04)	
+'section_y_01	=labium_width_start/2
+'section_y_02	=-labium_width_start/2
+'outer_wall_thickness	3	
+'airway_inlet_d	10.25	
+'airway_round_d	6	
+'airway_rect_w	=labium_width_start	
+'airway_rect_h	1	
+'pvc_outer_d	61	
+'outer_wall_d	=pvc_outer_d + 2 * outer_wall_thickness	
+'inlet_center_x	=(pvc_outer_d - airway_inlet_d) / 2 - pvc_wall_thickness / 2	
+'pvc_wall_thickness	4	
+
+
+section_z_01
+section_z_02
+section_z_03
+section_z_04
+section_z_05
+section_z_06
+section_z_07
+section_z_08
+section_z_09
+labium_width_start
+labium_width_end
+labium_slope
+section_y_01
+section_y_02
+outer_wall_thickness
+airway_inlet_d
+airway_round_d
+airway_rect_w
+airway_rect_h
+pvc_outer_d
+outer_wall_d
+inlet_center_x
+pvc_wall_thickness
